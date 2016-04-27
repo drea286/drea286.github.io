@@ -48,6 +48,29 @@
 /*Navigation*/
 nav li {
     list-style: none;
-    display: inline-block;
+    float: left;
 }
 
+nav a:link {
+    background: red;
+    margin: 0 10px 0 10px;
+    color: white;
+    padding: 20px 20px 5px 20px;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: white;
+    color: red;
+    margin-top: 20px;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:active {
+    background: black;
+}
