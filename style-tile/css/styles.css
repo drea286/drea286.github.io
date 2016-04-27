@@ -1,2 +1,23 @@
+/*Color Palette*/
+.color-1{background: red;
+}
 
+.color-2{
+    background: white;
+}
 
+.color-3{
+    background: blue;
+}
+
+.color-4 {
+    background: black;
+}
+
+/*Textures and Patterns*/
+.pattern-1 {
+    background: url("http://thumbs.dreamstime.com/z/usa-background-template-patriotic-independence-day-modern-design-concept-inspired-flag-includes-watercolor-texture-41386107.jpg") no-repeat;
+    background-size: cover;
+}
+
+.pattern-2 {}
