@@ -2,7 +2,7 @@
 
 /*Global*/
 body {
-    background: url("../img/prettystarbucks.jpg");
+    background: url("../img/");
 
 
 /*Header*/
@@ -10,6 +10,28 @@ header img {
     width: 100px;
 }
 
+/*Main Nav*/
 
+nav li{
+  list-style: none;
+  display: inline-block;
+  }
 
+nav a:link,
+nav a:visited {
+  background: red;
+  text-decoration: none;
+  padding: 1em;
+  transition: all .5s;
+}
+
+nav a:hover {
+  background: blue;
+  margin-left: .5em;
+ 
+}
+
+nav a:active {
+  background: yellow;
+}
 
