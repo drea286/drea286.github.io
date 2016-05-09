@@ -1,9 +1,10 @@
 /* I'm lovely! */
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
 /*Global*/
 body {
     background: url("../img/");
-
+}
 
 /*Header*/
 header img {
@@ -34,4 +35,13 @@ nav a:hover {
 nav a:active {
   background: yellow;
 }
+/*    Quote    */
+
+blockquote {
+    font-size: 4em;
+    font-family: 'IM Fell Double Pica', serif;
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px 0 red;
+    }
 
