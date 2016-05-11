@@ -14,20 +14,21 @@ header img {
 /*Main Nav*/
 
 nav li{
-  list-style: none;
+  list-style: circle;
   display: inline-block;
   }
 
 nav a:link,
+
 nav a:visited {
-  background: red;
+  background-color: beige;
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
 }
 
 nav a:hover {
-  background: blue;
+  background-color: deepskyblue;
   margin-left: .5em;
  
 }
