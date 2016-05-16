@@ -3,7 +3,7 @@
 
 /*Global*/
 body {
-    background: url("../img/");
+    background: url("../img/background-texture-889036_960_720.jpg");
 }
 
 /*Header*/
@@ -14,27 +14,39 @@ header img {
 /*Main Nav*/
 
 nav li{
-  list-style: circle;
+  list-style: none;
   display: inline-block;
+  font-style: oblique;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  justify-content: space-around;
   }
 
 nav a:link,
-
 nav a:visited {
-  background-color: beige;
+  background-color: #3E9CBB;
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
 }
 
 nav a:hover {
-  background-color: deepskyblue;
+  background-color: #2A3C7E;
   margin-left: .5em;
+  color: azure;
  
 }
 
+nav a:hover:before {
+    padding-right: .5em;
+    background: #2A3C7E;
+    content: "\1F60D";
+    transition: all 2s;
+}
+
 nav a:active {
-  background: yellow;
+  background-color: red;
+  color: black;
 }
 /*    Quote    */
 
@@ -42,7 +54,54 @@ blockquote {
     font-size: 4em;
     font-family: 'IM Fell Double Pica', serif;
     text-align: center;
-    color: blue;
-    text-shadow: 2px 2px 0 red;
+    color: #2A3C7E;
+    text-shadow: 4px 4px 0 #CFC9ED;
     }
 
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 3px #CFC9ED;
+    color: #5B36A1;
+    font-family: monospace;
+    font-size: 4em;
+}
+
+h2 {
+   font-family: 'Ubuntu', sans-serif;
+}
+
+
+h3 {
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 16pt;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-family: monospace;
+    font-size: 13pt;
+}
+
+p {
+    font-family: sans-serif;
+    color: #141B3D;
+    font-size: 14pt;
+}
+
+section {
+overflow: hidden;
+}
+
+/* Start frame */
+figcaption {
+  background: beige;
+  transition: margin-top 3s;
+  opacity: .8;
+}
+
+/* End frame */
+section:hover figcaption {
+  margin-top: -120px;
+}
