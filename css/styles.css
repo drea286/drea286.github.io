@@ -3,11 +3,9 @@
 
 /*Global*/
 body {
-<<<<<<< HEAD
-    background: url("../img/background-texture-889036_960_720.jpg");
-=======
     background: url("../img/beigebackground.jpg");
->>>>>>> origin/master
+
+    background: url("../img/background-texture-889036_960_720.jpg");
 }
 
 /*Header*/
