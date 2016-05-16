@@ -105,7 +105,12 @@ img {
 	}
 }
 #special {
+<<<<<<< HEAD
     width: 50%;
+=======
+    width: 35%;
+    align-content: center;
+>>>>>>> origin/master
 }
 
 
