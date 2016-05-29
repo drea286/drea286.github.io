@@ -4,6 +4,7 @@
 /*Global*/
 body {
     background: url("../img/background-texture-889036_960_720.jpg");
+    background-size: contain;
 }
 
 /*Header*/

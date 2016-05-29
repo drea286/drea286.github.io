@@ -16,18 +16,22 @@
 
 .pattern-1 {
     background: url(../img/background-texture-889036_960_720.jpg);
+    background-size: cover;
 }
 
 .pattern-2 {
     background: url(http://www.pageresource.com/wallpapers/wallpaper/wedding-graphy-textures-fine-art-grunge_1265200.jpg);
+    background-size: cover;
 }
 
 .pattern-3 {
-    background: url(../img/bluetexture.jpg);
+    background: url(../img/Lightbluetexture.png);
+    background-size: cover;
 }
 
 .pattern-4 {
     background: url(../img/bluepurpletexture.jpg);
+    background-size: cover;
 }
 
 .imagery-1 {
