@@ -11,10 +11,11 @@ body {
 }
 
 h1 {
+    font-size: 4em;
     font-family: 'IM Fell Double Pica', serif;
-    font-size: 300%;
-    font-weight: 500;
-    color: #503F1B;
+    text-align: center;
+    color: #2A3C7E;
+    text-shadow: 4px 4px 0 #CFC9ED;
 }
 
 h2 {
@@ -37,9 +38,10 @@ h4 {
 
 p {
     font-family: sans-serif;
-    color: #5B36A1;
-    font-weight: 600;
-    font-size: 2em;
+    color: #2A3C7E;
+    font-weight: 400;
+    font-size: 1.8em;
+    text-align: center;
 }
 
 /*Navigation Bar!*/
@@ -89,3 +91,18 @@ blockquote {
     color: #2A3C7E;
     text-shadow: 4px 4px 0 #CFC9ED;
     }
+
+/*Images!*/
+section {
+    object-position: center;
+    position: relative;
+}
+
+.img-circle {
+    border-radius: 75%;
+    width: 300px;
+    height: auto;
+    
+}
+
+/*Helping out the Grid System!*/
