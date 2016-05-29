@@ -25,7 +25,7 @@ h2 {
 h3 {
     font-family: sans-serif;
     font-variant: small-caps;
-    font-size: 16pt;
+    font-size: 16pt; 
 }
 
 h4 {
@@ -39,6 +39,7 @@ p {
     font-family: sans-serif;
     color: #5B36A1;
     font-weight: 600;
+    font-size: 2em;
 }
 
 /*Navigation Bar!*/
