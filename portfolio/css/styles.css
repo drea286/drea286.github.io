@@ -1,0 +1,104 @@
+/*The Fabulous Style Sheet for my Portfolio!*/
+
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
+
+
+/*Body, Headings, Paragraphs!*/
+
+body {
+    background: url("../img/Lightbluetexture.png");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'IM Fell Double Pica', serif;
+    text-align: center;
+    color: #2A3C7E;
+    text-shadow: 4px 4px 0 #CFC9ED;
+}
+
+
+.grad {
+    height: 50px;
+    width: 50px;
+}
+
+
+p {
+    font-family: sans-serif;
+    color: #2A3C7E;
+    font-weight: 400;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.book {
+    height: 35px;
+    width: 35px;
+}
+
+/*Navigation Bar!*/
+
+nav li{
+  
+  list-style: none;
+  display: inline-flex;
+  font-style: oblique;
+  font-family: sans-serif;
+  }
+
+
+ul {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+nav a:link,
+nav a:visited {
+  background-color: #CFC9ED;
+  text-decoration: none;
+  padding: 1em;
+  transition: all .5s;
+}
+
+nav a:hover {
+  background-color: #2A3C7E;
+  margin-left: .5em;
+  color: azure;
+ 
+}
+
+nav a:hover:before {
+    padding-right: .5em;
+    background: #2A3C7E;
+    content: 
+
+}
+
+nav a:active {
+  background-color: aquamarine;
+  color: black;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+}
+
+
+/*Images!*/
+section {
+    object-position: center;
+    position: relative;
+}
+
+.img-circle {
+    border-radius: 75%;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
