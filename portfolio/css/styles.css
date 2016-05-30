@@ -18,21 +18,10 @@ h1 {
     text-shadow: 4px 4px 0 #CFC9ED;
 }
 
-h2 {
-   font-family: 'Ubuntu', sans-serif;
-}
 
-
-h3 {
-    font-family: sans-serif;
-    font-variant: small-caps;
-    font-size: 16pt; 
-}
-
-h4 {
-    font-family: sans-serif;
-    font-family: monospace;
-    font-size: 13pt;
+.grad {
+    height: 50px;
+    width: 50px;
 }
 
 
@@ -44,22 +33,26 @@ p {
     text-align: center;
 }
 
+.book {
+    height: 35px;
+    width: 35px;
+}
+
 /*Navigation Bar!*/
 
 nav li{
   
-  list-style: circle;
+  list-style: disc;
   display: inline-block;
   font-style: oblique;
   font-family: sans-serif;
-  font-variant: small-caps;
-  justify-content: space-around;
-
   }
+
 
 ul {
   text-align: center;
   position: relative;
+  margin-top: 20px;
 }
 
 nav a:link,
@@ -80,12 +73,12 @@ nav a:hover {
 nav a:hover:before {
     padding-right: .5em;
     background: #2A3C7E;
-    content: "\1F60D";
-    transition: all 2s;
+    content: 
+
 }
 
 nav a:active {
-  background-color: red;
+  background-color: aquamarine;
   color: black;
 }
 
@@ -94,15 +87,6 @@ div {
     text-align: center;
 }
 
-/*The Welcome!*/
-
-blockquote {
-    font-size: 4em;
-    font-family: 'IM Fell Double Pica', serif;
-    text-align: center;
-    color: #2A3C7E;
-    text-shadow: 4px 4px 0 #CFC9ED;
-    }
 
 /*Images!*/
 section {
@@ -118,5 +102,3 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
-
-/*Helping out the Grid System!*/
