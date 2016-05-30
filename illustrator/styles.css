@@ -1,0 +1,10 @@
+h1 {
+ font-size: 2em;
+ font-family: sans-serif;
+ color: darkmagenta;
+}
+
+body {
+    background: url("../img/Lightbluetexture.png");
+    background-size: cover;
+}
