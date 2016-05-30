@@ -42,8 +42,8 @@ p {
 
 nav li{
   
-  list-style: disc;
-  display: inline-block;
+  list-style: none;
+  display: inline-flex;
   font-style: oblique;
   font-family: sans-serif;
   }
