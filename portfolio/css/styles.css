@@ -97,6 +97,7 @@ li {
 h3 {
   clear: left;
   padding-top: 20px;
+  text-align: center;
 }
 
 .actual {
@@ -111,14 +112,30 @@ h3 {
 
 .thumbnails li:nth-child(1) img {
   border: 5px solid purple;  
+  height: 75px;
+  width: 50px;
+  transform: rotate(-10deg);
 }
 
 .thumbnails li:nth-child(2) img {
-  border: 5px solid blue;  
+  border: 5px solid blue;
+  height: 75px;
+  width: 50px;
+  transform: rotate(-5deg);
 }
 
 .thumbnails li:nth-child(3) img {
-  border: 5px solid aquamarine;  
+  border: 5px solid aquamarine; 
+  height: 75px;
+  width: 50px;
+  transform: rotate(8deg);
+}
+
+.thumbnails li:nth-child(4) img {
+  border: 5px solid purple; 
+  height: 75px;
+  width: 50px;
+  transform: rotate(-7deg);
 }
 
 /*Thumbnails: Targets!*/
@@ -140,7 +157,14 @@ h3 {
 #actual-3:target {
   border: 10px solid aquamarine;
   z-index: 3;
-  height: 800px;
+  height: 1075px;
+  width: 700px;
+}
+
+#actual-4:target {
+  border: 10px solid purple;
+  z-index: 3;
+  height: 1075px;
   width: 700px;
 }
 
