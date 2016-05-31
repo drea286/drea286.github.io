@@ -1,0 +1,41 @@
+/*Stylesheet for my Final Website!*/
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
+
+/*Backgrounds!*/
+body {
+    background: url("../img/lightblueswirly.jpg");
+    background-size: cover;
+}
+
+
+/*Headings!*/
+h1 {
+   font-size: 3em;
+   text-align: center;
+   font-family: sans-serif;
+}
+
+p {
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p2 {
+    font-size: 1em;
+}
+
+/*Images!*/
+.namepic {
+    height: 50px;
+    width: 50px;
+}
+
+/*Grid things!*/
+section {
+  background: #8CA2D9;
+}
+
+.grid-4 {
+    font-family: sans-serif;
+}
