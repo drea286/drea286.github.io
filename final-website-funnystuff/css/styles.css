@@ -15,14 +15,22 @@ h1 {
    font-family: sans-serif;
 }
 
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: sans-serif;
+}
+
 p {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     font-family: sans-serif;
 }
 
 p2 {
     font-size: 1em;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 /*Images!*/
@@ -31,11 +39,8 @@ p2 {
     width: 50px;
 }
 
-/*Grid things!*/
+Grid things!
 section {
   background: #8CA2D9;
 }
 
-.grid-4 {
-    font-family: sans-serif;
-}
