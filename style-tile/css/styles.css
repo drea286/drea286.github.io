@@ -1,5 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
+
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+
 .color-1 {
-    background: #D6B785;
+    background: #F1E4D5;
 }
 
 .color-2 {
@@ -67,7 +71,7 @@
 }
 
 .icon-3{
-    background: url("../img/Dog-icon.png");
+    background: url("../img/wineicon.png");
     background-size: contain;
     border: none;
 }
@@ -133,7 +137,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sacramento', cursive;
     font-variant: inherit;
     color: #2A3C7E;
     text-decoration: inherit;

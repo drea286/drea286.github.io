@@ -1,81 +1,151 @@
 /*Stylesheet for my Final Website!*/
+
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+
 /*Backgrounds!*/
+
 body {
-    background: url("../img/lightblueswirly.jpg");
+    background: #F1E4D5;
     background-size: cover;
 }
 
 
-/*Headings!*/
-h1 {
-   font-size: 3em;
-   text-align: center;
-   font-family: sans-serif;
+/*Header!*/
+
+#headerBar {
+    height: 500px;
+    background: url(../img/bluepurpletealtan1.jpg);
+    background: cover;
 }
 
-h2 {
-    font-size: 1.5em;
+header div {
+    width: 100%;
     text-align: center;
-    font-family: sans-serif;
+    animation: tada 5s infinite;
 }
 
-p {
-    font-size: 1.5em;
+
+div {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size: 3em;
+    padding-top: 30px;
 }
 
-p2 {
-    font-size: 1em;
-    font-family: sans-serif;
-    text-align: center;
-}
-
-/*Images!*/
-.namepic {
+.wine {
     height: 50px;
     width: 50px;
 }
 
-/*FlexBox!*/
-.container {
-    background: #ffccff;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 90%;
-    height: 2000px;
+.actlike {
+    height: 200px;
+    width: 300px;
 }
 
-article {
-  background: #99ccff;
-  float: left;
-  margin: 1%; 
-  padding: 1.6666667%; 
-  width: 54%; 
+/*Nav Bar!*/
+
+nav li{
+  display: inline-flex;
+  font-size: 2em;
+  text-decoration: none;
+  font-family: 'Sacramento', cursive;
+  }
+
+
+ul {
+  text-align: center;
 }
 
-aside {
-  background: #cce6ff;
-  float: left;
-  margin: 1%; 
-  padding: 2.5%; 
-  width: 33%; 
+nav a:link{
+  background-color: #CFC9ED;
+  text-decoration: none;
+  padding: .4em;
+  transition: all .5s;
 }
 
-/* Clearfix */
-.container:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
+nav a:visited {
+  background-color: red;
+}
+
+nav a:hover {
+  background-color: #2A3C7E;
+  margin-left: .5em;
+  color: #F1E4D5;
+ 
+}
+
+nav a:hover:before {
+    padding-right: .5em;
+    background: #2A3C7E;
+
+}
+
+nav a:active {
+  background-color: #cce6ff;
+  color: #2A3C7E;
 }
 
 
-/*Thumbnails*/
+/*Headings!*/
+
+h1 {
+   font-size: 3em;
+   text-align: center;
+  
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+  
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+/*Paragraphs!*/
+p {
+    font-size: 1.2em;
+    text-align: center;
+   
+}
+
+p2 {
+    font-size: 1em;
+    text-align: center;
+}
+
+/*Images!*/
+
+.myimage1 {
+    background-size: contain;
+    border: none;
+}
+
+.myimage2 {
+    background-size: contain;
+    border: none;
+}
+
+.myimage3 {
+    background-size: contain;
+    border: none;
+}
+
+.myimage4 {
+    background-size: contain;
+    border: none;
+}
+
+/*More images*/
+
 li {
-  float: left;
+  float: center;
   list-style: none;
   margin: 5px;
 }
@@ -90,7 +160,50 @@ h3 {
   position: relative;
 }
 
-/*Targets*/
+.actual img {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.thumbnails {
+    
+}
+
+/*Thumbnails - nth child (learned in class)!*/
+.thumbnails li:nth-child(1) img {
+  border: 5px solid purple;  
+  height: 75px;
+  width: 50px;
+  transform: rotate(-10deg);
+    
+}
+
+.thumbnails li:nth-child(2) img {
+  border: 5px solid blue;
+  height: 75px;
+  width: 50px;
+  transform: rotate(-5deg);
+    
+}
+
+.thumbnails li:nth-child(3) img {
+  border: 5px solid aquamarine; 
+  height: 75px;
+  width: 50px;
+  transform: rotate(8deg);
+    
+}
+
+.thumbnails li:nth-child(4) img {
+  border: 5px solid purple; 
+  height: 75px;
+  width: 50px;
+  transform: rotate(-7deg);
+   
+}
+
+/*Thumbnails: Targets!*/
 
 #actual-1:target {
   border: 10px solid purple;
@@ -129,3 +242,98 @@ img:target  {
   transition: opacity .5s;
 }
 
+
+
+/*FlexBox!*/
+
+
+.container1 {
+    background: #ffccff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 90%;
+    height: 2000px;
+    text-decoration: none;
+}
+
+article {
+  background: #99ccff;
+  float: left;
+  margin: 1%; 
+  padding: 1.6666667%; 
+  width: 54%; 
+  
+}
+
+aside {
+  background: #cce6ff;
+  float: left;
+  margin: 1%; 
+  padding: 2.5%; 
+  width: 33%; 
+}
+
+/* Clearfix */
+.container:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+
+/*Thumbnail controls!*/
+.thumbnails li {
+  float: left;
+  list-style: none;
+  margin: 5px;
+  text-decoration: none;
+}
+
+h3 {
+  clear: left;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.actual {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+/*Targets*/
+
+#actual-1:target {
+  border: 10px solid purple;
+  z-index: 1;
+  height: 800px;
+  width: 700px;
+}
+
+#actual-2:target {
+  border: 10px solid blue;
+  z-index: 2;
+  height: 800px;
+  width: 700px;
+}
+
+#actual-3:target {
+  border: 10px solid aquamarine;
+  z-index: 3;
+  height: 1075px;
+  width: 700px;
+}
+
+#actual-4:target {
+  border: 10px solid purple;
+  z-index: 3;
+  height: 1075px;
+  width: 700px;
+}
+
+
+img:target  {
+  opacity: 1;
+  transition: opacity .5s;
+}
