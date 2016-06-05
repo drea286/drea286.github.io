@@ -26,7 +26,6 @@ body {
 header div {
     width: 100%;
     text-align: center;
-    animation: tada 5s infinite;
 }
 
 div {
@@ -34,6 +33,27 @@ div {
     font-family: 'Sacramento', cursive;
     font-size: 3em;
     padding-top: 30px;
+}
+
+/*Illustrator image!*/
+
+.polygon {
+    fill: #CFC9ED;
+    stroke: #2A3C7E;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    animation: tada 2s infinite;
+}
+
+polygon:hover {
+  fill: #F1E4D5;
+  stroke: #CFC9ED;
+  transition: all .5s;
+}
+
+strong {
+    font-weight: bolder;
 }
 
 .wine {
@@ -111,6 +131,11 @@ h3 {
 
 
 /*Paragraphs!*/
+#myname {
+background: -webkit-linear-gradient(to left, #E55D87 , #5FC3E4); 
+background: linear-gradient(to left, #E55D87, #5FC3E4); 
+}
+
 p {
     font-size: 1.2em;
     text-align: center;
@@ -119,7 +144,8 @@ p {
 
 p2 {
     font-size: .25em;
-    text-align: center;   
+    text-align: center; 
+    line-height: 2em;
 }
 
 
@@ -136,6 +162,10 @@ li {
   top: -140px;
   height: 50px;
 }
+
+
+/*Aside/figure!*/
+
 
 
 /*Hide the other images and keep them in line!*/
@@ -186,46 +216,41 @@ li {
 
 /*Targets(big images)!*/
 
-#actual-1:target {
+#actual-1:target, 
+#actual-4:target
+{ border-radius: 30%;
   border: solid;
   border-width: 35px 35px 35px 35px;
-  border-image: url(../img/borderswirls.jpg) 25 30 10 20 repeat;
-  height: 500px;
-  width: 400px;
-  position: relative;
-  top: -500px;
-    
+  border-image: url(../img/borderswirls.jpg) 100 100 100 100 repeat;
+  height: 300px;
+  width: 200px;
+  position: absolute;
+  top: -400px;
 }
 
 #actual-2:target {
+  border-radius: 30%;
   border: solid;
   border-width: 35px 35px 35px 35px;
-  border-image: url(../img/borderswirls.jpg) 25 30 10 20 repeat;
-  height: 400px;
-  width: 500px;
-  position: relative;
-  top: -500px;
+  border-image: url(../img/borderswirls.jpg) 100 100 100 100 repeat;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: -400px;
+  left: 5px; 
 }
 
 #actual-3:target {
   border: solid;
   border-width: 35px 35px 35px 35px;
-  border-image: url(../img/borderswirls.jpg) 25 30 10 20 repeat;
-  height: 500px;
-  width: 450px;
-  position: relative;
-  top: -500px;
+  border-image: url(../img/borderswirls.jpg) 100 100 100 100 repeat;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: -400px;
+  left: 5px; 
 }
 
-#actual-4:target {
-  border: solid;
-  border-width: 35px 35px 35px 35px;
-  border-image: url(../img/borderswirls.jpg) 25 30 10 20 repeat;
-  height: 500px;
-  width: 400px;
-  position: relative;
-  top: -500px;
-}
 
 img:target  {
   opacity: 0;
@@ -233,9 +258,7 @@ img:target  {
 }
 
 
-
 /*Magic FlexBox!*/
-
 
 .container1 {
     background: #ffccff;
@@ -299,4 +322,29 @@ h3 {
 img:target  {
   opacity: 5;
   transition: opacity .5s;
+}
+
+
+/*Animation!*/
+
+@keyframes tada { 
+
+
+  
+  0% { 
+    opacity: 0;
+    transform: scale(.5);
+  }
+  
+  50% { 
+    opacity: 1;
+    transform: scale(1);
+  }
+ 
+ 
+  100% { 
+  opacity: 2;
+  transform: scale(1);
+  }
+
 }
