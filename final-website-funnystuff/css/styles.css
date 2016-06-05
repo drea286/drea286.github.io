@@ -59,6 +59,7 @@ strong {
 .wine {
     height: 50px;
     width: 50px;
+    transform: skewY(-15deg) skewX(20deg);
 }
 
 .actlike {
@@ -286,6 +287,35 @@ aside {
   width: 33%; 
 }
 
+
+
+
+/*Overlay!*/
+
+.overlay {
+  background: red;
+  text-align: center;
+  display: none;
+}
+
+.overlay:target {
+    background: rgba(0, 0, 0, .5);
+    display: block;
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 0px;   
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.muffin {
+    height: 200px;
+    width: 200px;
+}
 
 /* Clearfix */
 
