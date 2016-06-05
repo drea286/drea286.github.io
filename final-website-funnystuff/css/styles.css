@@ -7,12 +7,19 @@
 @import url(https://fonts.googleapis.com/css?family=Sacramento);
 
 
+
+
+
 /*Main Background!*/
 
 body {
     background: #F1E4D5;
     background-size: cover;
 }
+
+
+
+
 
 
 /*Header!*/
@@ -34,6 +41,12 @@ div {
     font-size: 3em;
     padding-top: 30px;
 }
+
+
+
+
+
+
 
 /*Illustrator image!*/
 
@@ -66,6 +79,10 @@ strong {
     height: 200px;
     width: 300px;
 }
+
+
+
+
 
 /*Nav Bar!*/
 
@@ -111,6 +128,10 @@ nav a:active {
 }
 
 
+
+
+
+
 /*Headings!*/
 
 h1 {
@@ -131,6 +152,10 @@ h3 {
 }
 
 
+
+
+
+
 /*Paragraphs!*/
 #myname {
 background: -webkit-linear-gradient(to left, #E55D87 , #5FC3E4); 
@@ -148,6 +173,11 @@ p2 {
     text-align: center; 
     line-height: 2em;
 }
+
+
+
+
+
 
 
 /*Images!*/
@@ -178,41 +208,55 @@ li {
 }
 
 
+
+
+
+
 /*Keep image below!*/
 .actual {
   position: relative;
 }
 
 
+
+
+
+
+
 /*Thumbnails - nth child (from class)!*/
 
 .thumbnails li:nth-child(1) img {
-  border: 5px solid purple;  
+  border: 5px dotted black;  
   height: 75px;
   width: 50px;
   transform: rotate(-10deg);
 }
 
 .thumbnails li:nth-child(2) img {
-  border: 5px solid blue;
+  border: 5px dotted black;
   height: 75px;
   width: 50px;
   transform: rotate(-5deg);
 }
 
 .thumbnails li:nth-child(3) img {
-  border: 5px solid aquamarine; 
+  border: 5px dotted black; 
   height: 75px;
   width: 50px;
   transform: rotate(8deg);
 }
 
 .thumbnails li:nth-child(4) img {
-  border: 5px solid purple; 
+  border: 5px dotted black; 
   height: 75px;
   width: 50px;
   transform: rotate(-7deg);
 }
+
+
+
+
+
 
 
 /*Targets(big images)!*/
@@ -259,6 +303,10 @@ img:target  {
 }
 
 
+
+
+
+
 /*Magic FlexBox!*/
 
 .container1 {
@@ -290,16 +338,18 @@ aside {
 
 
 
+
+
 /*Overlay!*/
 
 .overlay {
-  background: red;
+  background: #99ccff;
   text-align: center;
   display: none;
 }
 
 .overlay:target {
-    background: rgba(0, 0, 0, .5);
+    background: rgba(9, 14, 30, .8);
     display: block;
     width: auto;
     height: auto;
@@ -308,14 +358,24 @@ aside {
     bottom: 0px;
     right: 0px;
     position: fixed;
-    overflow: hidden;
-    z-index: 1;
 }
 
 .muffin {
     height: 200px;
     width: 200px;
+    top: -200px;
+    left: -25px;
+    position: relative;
 }
+
+.ron {
+    height: 500px;
+    width: 350px;
+}
+
+
+
+
 
 /* Clearfix */
 
@@ -325,6 +385,9 @@ aside {
   clear: both;
   visibility: hidden;
 }
+
+
+
 
 
 /*Thumbnail controls!*/
@@ -339,12 +402,18 @@ aside {
 }
 
 
+
+
+
 /*Give thumbnails and images space!*/
 
 h3 {
   clear: left;
   text-align: center;
 }
+
+
+
 
 
 /*Target details!*/
@@ -355,12 +424,12 @@ img:target  {
 }
 
 
+
+
+
 /*Animation!*/
 
 @keyframes tada { 
-
-
-  
   0% { 
     opacity: 0;
     transform: scale(.5);
@@ -370,7 +439,6 @@ img:target  {
     opacity: 1;
     transform: scale(1);
   }
- 
  
   100% { 
   opacity: 2;
