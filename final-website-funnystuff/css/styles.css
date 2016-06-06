@@ -106,7 +106,7 @@ nav a:link{
 }
 
 nav a:visited {
-  background-color: red;
+  background-color: #CFC9ED;
 }
 
 nav a:hover {
@@ -195,7 +195,8 @@ li {
 }
 
 
-/*Aside/figure!*/
+
+
 
 
 
@@ -314,7 +315,7 @@ img:target  {
     margin: 0 auto;
     width: 100%;
     max-width: 90%;
-    height: 1000px;
+    height: 810px;
     text-decoration: none;
 }
 

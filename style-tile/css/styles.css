@@ -11,20 +11,25 @@
 }
 
 .color-3 {
-    background: #3E9CBB;
+    background: #CFC9ED;
 }
 
 .color-4 {
-    background: #46246B;
+    background: #cce6ff;
 }
 
+.color-5 {
+    background: #ffccff;
+}
+
+
 .pattern-1 {
-    background: url(../img/background-texture-889036_960_720.jpg);
+    background: url(../img/tangraybackground.jpg);
     background-size: cover;
 }
 
 .pattern-2 {
-    background: url(http://www.pageresource.com/wallpapers/wallpaper/wedding-graphy-textures-fine-art-grunge_1265200.jpg);
+    background: url(../img/bluepurpletealtan1.jpg);
     background-size: cover;
 }
 
@@ -34,13 +39,16 @@
 }
 
 .pattern-4 {
-    background: url(../img/bluepurpletexture.jpg);
+    background: url(../img/borderswirls.jpg);
     background-size: cover;
 }
 
+
 .imagery-1 {
-    background-size: contain;
-    border: none;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-image: contain;
 }
 
 .imagery-2 {
@@ -81,7 +89,7 @@
   list-style: none;
   display: inline-block;
   font-style: oblique;
-  font-family: sans-serif;
+  font-family: 'IM Fell Double Pica', serif;
   font-variant: small-caps;
   }
 
@@ -130,43 +138,27 @@ li a:hover {
 
 
 h1 {
-    font-family: 'IM Fell Double Pica', serif;
-    font-size: 300%;
-    font-weight: 500;
-    color: #503F1B;
+    font-family: 'Sacramento', cursive;
+    font-size: 3em;
 }
 
 h2 {
-    font-family: 'Sacramento', cursive;
-    font-variant: inherit;
+    font-family: 'IM Fell Double Pica', serif;
     color: #2A3C7E;
-    text-decoration: inherit;
 }
 
 h3 {
-    font-family: monospace;
-    color: #541C28;
+    font-family: 'IM Fell Double Pica', serif;
     font-variant: small-caps;
-    text-decoration: underline;
 }
 
 p {
-    font-family: sans-serif;
-    color: #5B36A1;
+    font-family:  'IM Fell Double Pica', serif;
     font-weight: 600;
 }
 
 button {
+    font-family:  'IM Fell Double Pica', serif;
     font-size: 150%;
-    color: #3E9CBB;
+    color: #2A3C7E;
 }  
-
-
-
-
-
-
-
-
-
-

@@ -3,7 +3,7 @@
 
 /*Global*/
 body {
-    background: url("../img/background-texture-889036_960_720.jpg");
+    background: url("../img/tangraybackground.jpg");
     background-size: contain;
 }
 
@@ -17,15 +17,13 @@ header img {
 nav li{
   list-style: none;
   display: inline-block;
-  font-style: oblique;
-  font-family: sans-serif;
+  font-family: 'IM Fell Double Pica', serif;
   font-variant: small-caps;
-  justify-content: space-around;
   }
 
 nav a:link,
 nav a:visited {
-  background-color: #3E9CBB;
+  background-color: #cce6ff;
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
@@ -34,8 +32,7 @@ nav a:visited {
 nav a:hover {
   background-color: #2A3C7E;
   margin-left: .5em;
-  color: azure;
- 
+  color: #cce6ff; 
 }
 
 nav a:hover:before {
@@ -46,7 +43,7 @@ nav a:hover:before {
 }
 
 nav a:active {
-  background-color: red;
+  background-color: #99ccff;
   color: black;
 }
 /*    Quote    */
@@ -61,32 +58,31 @@ blockquote {
 
 h1 {
     text-align: center;
-    text-decoration: underline;
     text-shadow: 3px 3px #CFC9ED;
-    color: #5B36A1;
-    font-family: monospace;
+    color: #2A3C7E;
+    font-family: 'IM Fell Double Pica', serif;
     font-size: 4em;
 }
 
 h2 {
-   font-family: 'Ubuntu', sans-serif;
+   font-family: 'IM Fell Double Pica', serif;
 }
 
 
 h3 {
-    font-family: sans-serif;
+    font-family: 'IM Fell Double Pica', serif;
     font-variant: small-caps;
     font-size: 16pt;
 }
 
 h4 {
-    font-family: sans-serif;
+    font-family: 'IM Fell Double Pica', serif;
     font-family: monospace;
     font-size: 13pt;
 }
 
 p {
-    font-family: sans-serif;
+    font-family: 'IM Fell Double Pica', serif;
     color: #141B3D;
     font-size: 14pt;
 }
@@ -97,7 +93,7 @@ overflow: hidden;
 
 /* Start frame */
 figcaption {
-  background: beige;
+  background: #F1E4D5;
   transition: margin-top 3s;
   opacity: .8;
 }
