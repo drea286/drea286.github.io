@@ -109,13 +109,13 @@ ul {
 }
 
 nav a:link {
-  background-color: #3E9CBB;
+  background-color: #CFC9ED;
   text-decoration: none;
   transition: all .5s;
 }
 
 nav a:visited {
-  background-color: #3E9CBB;
+  background-color: #CFC9ED;
   text-decoration: none;
   padding: .25em;
   transition: all .5s;

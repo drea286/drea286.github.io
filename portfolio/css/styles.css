@@ -75,6 +75,7 @@ nav a:visited {
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
+  font-variant: small-caps
 }
 
 nav a:hover {
