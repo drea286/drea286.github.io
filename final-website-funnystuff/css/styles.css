@@ -33,7 +33,24 @@ body {
     
 }
 
+/*Meta Viewport*/
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
 
+
+
+
+/*Flexible Embedded Media*/
+aside section {
+    width: 100%;
+    height: 0;
+}
+
+iframe {
+    position: absolute;
+}
 
 
 
@@ -376,10 +393,9 @@ aside {
     position: fixed;
 }
 
-.muffin {
+.click {
     height: 200px;
     width: 200px;
-    top: -200px;
     left: -25px;
     position: relative;
 }
