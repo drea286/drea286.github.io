@@ -22,6 +22,21 @@ body {
 
 
 
+/*RWD / Media Queries (Mobile first)*/
+
+@media screen and (max-width: 650px) 
+{
+    .actlike,
+    .polygon {
+        display: none;
+    }
+    
+}
+
+
+
+
+
 /*Header!*/
 
 #headerBar {
