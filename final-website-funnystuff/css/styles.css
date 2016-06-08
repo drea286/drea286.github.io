@@ -10,8 +10,6 @@
 
 
 
-
-
 /*Main Background!*/
 
 body {
@@ -34,12 +32,37 @@ body {
         display: none;
     }
     
+ .container1 {
+    background: #ffccff;
+    margin: 0 auto;
+    text-decoration: none;
+    display: flex;
+    margin: 0 5%;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
 }
+    
+    
+    
+}
+
+/*Meta Viewport*/
+/*
+@viewport {
+  width: device-width;
+  zoom: 4;
+}
+*/
+
 
 /*Meta Viewport*/
 @viewport {
   width: device-width;
-  zoom: 4;
+  zoom: 1;
 }
 
 
@@ -367,27 +390,25 @@ img:target  {
 .container1 {
     background: #ffccff;
     margin: 0 auto;
-    width: 100%;
-    max-width: 90%;
-    height: 810px;
+    width: 90%;
     text-decoration: none;
+    display: flex;
+    margin: 0 5%;
+    justify-content: center;
 }
 
 article {
+    display: flex;
   background: #99ccff;
-  float: left;
   margin: 1%; 
-  padding: 1.6666667%; 
-  width: 54%; 
-  
+  padding: 1.6666667%;  
 }
 
 aside {
+    display: flex;
   background: #cce6ff;
-  float: left;
   margin: 1%; 
   padding: 2.5%; 
-  width: 33%; 
 }
 
 
@@ -419,7 +440,6 @@ aside {
     height: 200px;
     width: 200px;
     left: -25px;
-    top: -200px;
     position: relative;
 }
 
