@@ -3,6 +3,8 @@
 @import url(https://fonts.googleapis.com/css?family=Sacramento);
 
 
+
+/*All images*/
 .images {
     width: 100%;
     max-width: 100%;
@@ -10,6 +12,8 @@
 
 
 
+
+/*Colors*/
 .color-1 {
     background: #F1E4D5;
 }
@@ -31,6 +35,11 @@
 }
 
 
+
+
+
+
+/*Patterns*/
 .pattern-1 {
     background: url(../img/tangraybackground.jpg);
     background-size: cover;
@@ -52,6 +61,10 @@
 }
 
 
+
+
+
+/*All images*/
 .imagery-1 {
     position: relative;
     height: 200px;
@@ -74,6 +87,10 @@
     border: none;
 }
 
+
+
+
+/*Icons*/
 .icon-1{
     background: url("../img/grad-icon.png");
     background-size: contain;
@@ -93,6 +110,11 @@
 }
 
 
+
+
+
+
+/*Nav bar*/
 .primary-nav {
   list-style: none;
   display: inline-block;
@@ -145,6 +167,10 @@ li a:hover {
 }
 
 
+
+
+
+/*Headings and Paragraphs*/
 h1 {
     font-family: 'Sacramento', cursive;
     font-size: 3em;

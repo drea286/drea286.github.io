@@ -3,6 +3,9 @@
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
 
+
+
+
 /*Body, Headings, Paragraphs!*/
 
 body {
@@ -39,6 +42,12 @@ p {
 }
 
 
+
+
+
+
+
+
 /*RWD / Media Queries (Mobile first)*/
 
 @media screen and (max-width: 400px) 
@@ -46,8 +55,9 @@ p {
     .grad {
         display: none;
     }
-    
 }
+
+
 
 
 
@@ -177,6 +187,31 @@ h3 {
   left: 40px;
 }
 
+
+
+
+
+
+
+/*Images!*/
+section {
+    object-position: center;
+    position: relative;
+}
+
+.img-circle {
+    border-radius: 75%;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
 /*
 .thumbnails li:nth-child(1) img {
   border: 5px solid purple;  
@@ -245,18 +280,3 @@ img:target  {
   transition: opacity .5s;
 }
 */
-
-/*Images!*/
-section {
-    object-position: center;
-    position: relative;
-}
-
-.img-circle {
-    border-radius: 75%;
-    width: 300px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}

@@ -1,16 +1,25 @@
 /* I'm lovely! */
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
+
+
+
 /*Global*/
 body {
     background: url("../img/tangraybackground.jpg");
     background-size: contain;
 }
 
+
+
+
 /*Header*/
 header img {
     width: 100px;
 }
+
+
+
 
 /*Main Nav*/
 
@@ -91,12 +100,18 @@ section {
 overflow: hidden;
 }
 
+
+
+
 /* Start frame */
 figcaption {
   background: #F1E4D5;
   transition: margin-top 3s;
   opacity: .8;
 }
+
+
+
 
 /* End frame */
 section:hover figcaption {
