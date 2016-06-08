@@ -6,7 +6,7 @@
 
 
 
-/*Body, Headings, Paragraphs!*/
+/*Body, Headings, Paragraphs*/
 
 body {
     background: url("../img/Lightbluetexture.png");
@@ -48,7 +48,7 @@ p {
 
 
 
-/*RWD / Media Queries (Mobile first)*/
+/*RWD / Media Queries*/
 
 @media screen and (max-width: 400px) 
 {

@@ -1,5 +1,6 @@
 /*Stylesheet for my Final Website!*/
 
+
 /*Imported fonts!*/
 
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
@@ -23,9 +24,13 @@ body {
 
 
 
-/*RWD / Media Queries (Mobile first)*/
+/*RWD - Media Queries / Flexbox!*/
 
-@media screen and (max-width: 650px) 
+@media screen 
+    and (max-width: 950px)
+    and (min-width: 0px)
+    and (orientation: portrait)
+  
 {
     .actlike,
     .polygon {
@@ -45,24 +50,17 @@ body {
     -o-flex-direction: column;
     flex-direction: column;
 }
-    
-    
-    
-}
+    }
 
-/*Meta Viewport*/
-/*
+
+
+
+
+
+/*Meta Viewport!*/
 @viewport {
   width: device-width;
-  zoom: 4;
-}
-*/
-
-
-/*Meta Viewport*/
-@viewport {
-  width: device-width;
-  zoom: 1;
+  zoom: 2;
 }
 
 
@@ -71,9 +69,9 @@ body {
 
 
 
-/*Flexible Embedded Media*/
-
+/*Flexible Embedded Media!*/
 /*
+
 aside section {
     width: 100%;
     height: 0;
@@ -81,8 +79,9 @@ aside section {
 
 iframe {
     position: absolute;
-}
-*/
+}*/
+
+
 
 
 
@@ -110,6 +109,10 @@ div {
     padding-top: 30px;
 }
 
+strong {
+    font-weight: bolder;
+}
+
 
 
 
@@ -133,21 +136,18 @@ polygon:hover {
   transition: all .5s;
 }
 
-strong {
-    font-weight: bolder;
-}
 
+
+
+
+
+
+/*Icon details!*/
 .wine {
     height: 50px;
     width: 50px;
     transform: skewY(-15deg) skewX(20deg);
 }
-
-.actlike {
-    height: 200px;
-    width: 300px;
-}
-
 
 
 
@@ -268,13 +268,11 @@ li {
 }
 
 
+.actlike {
+    height: 200px;
+    width: 300px;
+}
 
-
-
-
-
-
-/*Hide the other images and keep them in line!*/
 .actual img {
   position: absolute;
   top: 40px;
@@ -282,13 +280,6 @@ li {
   opacity: 0;
 }
 
-
-
-
-
-
-
-/*Keep image below!*/
 .actual {
   position: relative;
 }
@@ -385,7 +376,7 @@ img:target  {
 
 
 
-/*Magic FlexBox!*/
+/*More FlexBox Details!*/
 
 .container1 {
     background: #ffccff;
@@ -410,6 +401,7 @@ aside {
   margin: 1%; 
   padding: 2.5%; 
 }
+
 
 
 
@@ -454,7 +446,7 @@ aside {
 
 
 
-/* Clearfix */
+/* Clearfix! */
 
 .container:after {
   content: ".";
