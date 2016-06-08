@@ -36,8 +36,10 @@ body {
 /*Meta Viewport*/
 @viewport {
   width: device-width;
-  zoom: 1;
+  zoom: 4;
 }
+
+
 
 
 
@@ -400,6 +402,7 @@ aside {
     height: 200px;
     width: 200px;
     left: -25px;
+    top: -200px;
     position: relative;
 }
 
