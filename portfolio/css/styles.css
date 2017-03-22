@@ -1,24 +1,27 @@
 /* Did it change? The Fabulous Style Sheet for my Portfolio!*/
 
-@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
-
-
-
-
-
 /*Body, Headings, Paragraphs*/
 
 body {
-    background: url("../img/Lightbluetexture.png");
-    background-size: cover;
+    background: url("../img/perfectofficebackground.jpg");
+    background-size: contain;
 }
 
+
 h1 {
-    font-size: 4em;
-    font-family: 'IM Fell Double Pica', serif;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 4.5em;
     text-align: center;
-    color: #2A3C7E;
-    text-shadow: 4px 4px 0 #CFC9ED;
+    text-transform: uppercase;
+    color: black;
+}
+
+h2 {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2em;
+    text-align: center;
+ 
+    color: black;
 }
 
 .grad {
@@ -37,6 +40,13 @@ p {
 .book {
     height: 35px;
     width: 35px;
+}
+
+
+.resize {
+    background-size: contain;
+    width: 200px;
+    height: 200px;
 }
 
 
@@ -83,7 +93,8 @@ nav a:visited {
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
-  font-variant: small-caps
+  font-variant: small-caps;
+  font-style: normal;
 }
 
 nav a:hover {
@@ -96,7 +107,7 @@ nav a:hover {
 nav a:hover:before {
     padding-right: .5em;
     background: #2A3C7E;
-    content: 
+    content: inherit;
 
 }
 
@@ -164,9 +175,9 @@ div {
 
 /*Thumbnails*/
 li {
-  float: left;
+  float: inherit;
   list-style: none;
-  margin: 5px;
+  margin: 6px;
 }
 
 h3 {
@@ -206,7 +217,12 @@ section {
     margin-right: auto;
 }
 
-
+.img-circle.resize {
+    border-radius: 50%;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
 
 
 
