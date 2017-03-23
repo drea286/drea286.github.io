@@ -20,6 +20,11 @@ header img {
 }
 
 
+/*Picture*/
+.profilepic {
+    width: 400px;
+    height: 400px;
+}
 
 
 
@@ -49,7 +54,6 @@ nav a:hover {
 nav a:hover:before {
     padding-right: .5em;
     background: #2A3C7E;
-    content: "\1F60D";
     transition: all 2s;
 }
 
@@ -73,20 +77,25 @@ blockquote {
 
 h1 {
     text-align: center;
-    text-shadow: 3px 3px #CFC9ED;
     color: #2A3C7E;
-    font-family: 'IM Fell Double Pica', serif;
+    font-family: sans-serif;
+    font-variant-caps: all-small-caps;
     font-size: 4em;
 }
 
 h2 {
-   font-family: 'IM Fell Double Pica', serif;
+       text-align: center;
+    color: #2A3C7E;
+    font-family: sans-serif;
+    font-variant-caps: all-small-caps;
 }
 
 
 h3 {
-    font-family: 'IM Fell Double Pica', serif;
-    font-variant: small-caps;
+       text-align: center;
+    color: #2A3C7E;
+    font-family: sans-serif;
+    font-variant-caps: all-small-caps;
     font-size: 16pt;
 }
 
@@ -109,6 +118,8 @@ overflow: hidden;
 
 
 
+
+
 /* Start frame */
 figcaption {
   background: #F1E4D5;
@@ -117,9 +128,7 @@ figcaption {
 }
 
 
-
-
 /* End frame */
 section:hover figcaption {
-  margin-top: -120px;
+  margin-top: -30px;
 }
