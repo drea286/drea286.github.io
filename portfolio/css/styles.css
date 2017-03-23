@@ -10,7 +10,7 @@ body {
 
 h1 {
     font-family: 'Montserrat',sans-serif;
-    font-size: 4.5em;
+    font-size: 4em;
     text-align: center;
     text-transform: uppercase;
     color: black;
@@ -76,7 +76,6 @@ nav li{
   
   list-style: none;
   display: inline-flex;
-  font-style: oblique;
   font-family: 'IM Fell Double Pica', serif;
   }
 
@@ -89,7 +88,8 @@ ul {
 
 nav a:link,
 nav a:visited {
-  background-color: #CFC9ED;
+    color: black;
+  background-color: #ABB4B8;
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
@@ -98,7 +98,7 @@ nav a:visited {
 }
 
 nav a:hover {
-  background-color: #2A3C7E;
+  background-color: lightslategray;
   margin-left: .5em;
   color: azure;
  
@@ -106,7 +106,7 @@ nav a:hover {
 
 nav a:hover:before {
     padding-right: .5em;
-    background: #2A3C7E;
+    background: #9CAFB5;
     content: inherit;
 
 }
