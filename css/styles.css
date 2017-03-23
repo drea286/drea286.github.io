@@ -21,6 +21,10 @@ header img {
     width: 100px;
 }
 
+.academic {
+    padding-top: 2em;
+    margin-top: 2em; 
+}
 
 /*Picture*/
 .profilepic {
