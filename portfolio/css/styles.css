@@ -44,6 +44,7 @@ p {
 #myname {
 background: -webkit-linear-gradient(to left, #E55D87 , #5FC3E4); 
 background: linear-gradient(to left, #D8D8D8, #D8D8D8); 
+   font-family: 'Montserrat',sans-serif;
 }
 
 .book {

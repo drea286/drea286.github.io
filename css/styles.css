@@ -1,12 +1,14 @@
 /* I'm lovely! */
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
 
 
 
 
 /*Global*/
 body {
-    background: url("../img/tangraybackground.jpg");
+    background: url("../img/profgraybackground.jpg");
     background-size: contain;
 }
 
@@ -31,36 +33,47 @@ header img {
 /*Main Nav*/
 
 nav li{
-  list-style: none;
-  display: inline-block;
-  font-family: 'IM Fell Double Pica', serif;
-  font-variant: small-caps;
+  display: inline-flex;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: 'Arvo', serif;
   }
 
-nav a:link,
-nav a:visited {
-  background-color: #CFC9ED;
+
+ul {
+  text-align: center;
+}
+
+nav a:link{
+  background-color: whitesmoke;
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
 }
 
+nav a:visited {
+  background-color: whitesmoke;
+}
+
 nav a:hover {
-  background-color: #2A3C7E;
+  background-color: black;
   margin-left: .5em;
-  color: #cce6ff; 
+  color: whitesmoke;
+ 
 }
 
 nav a:hover:before {
     padding-right: .5em;
-    background: #2A3C7E;
-    transition: all 2s;
+    background: black;
+
 }
 
 nav a:active {
-  background-color: #99ccff;
+  background-color: whitesmoke;
   color: black;
 }
+
+
 
 
 
@@ -69,7 +82,7 @@ nav a:active {
 
 blockquote {
     font-size: 4em;
-    font-family: 'IM Fell Double Pica', serif;
+    font-family: 'Arvo', serif;
     text-align: center;
     color: #2A3C7E;
     text-shadow: 4px 4px 0 #CFC9ED;
@@ -77,42 +90,47 @@ blockquote {
 
 h1 {
     text-align: center;
-    color: #2A3C7E;
-    font-family: sans-serif;
-    font-variant-caps: all-small-caps;
+    color: black;
+   font-family: 'Arvo', serif;
     font-size: 4em;
 }
 
 h2 {
        text-align: center;
-    color: #2A3C7E;
-    font-family: sans-serif;
-    font-variant-caps: all-small-caps;
+    color: black;
+   font-family: 'Arvo', serif;
+    font-size: 1em;
+ 
 }
 
 
 h3 {
        text-align: center;
-    color: #2A3C7E;
-    font-family: sans-serif;
-    font-variant-caps: all-small-caps;
-    font-size: 16pt;
+    color: black;
+    font-family: 'Arvo', serif;
+    font-size: 1.5em;
 }
 
 h4 {
-    font-family: 'IM Fell Double Pica', serif;
-    font-family: monospace;
+    font-family: 'Arvo', serif;
     font-size: 13pt;
 }
 
 p {
-    font-family: 'IM Fell Double Pica', serif;
-    color: #141B3D;
+    font-family: 'Arvo', serif;
+    color: black;
     font-size: 14pt;
+}
+
+p2 {
+    font-family: 'Arvo', serif;
+    color: black;
+    font-size: 11pt;
 }
 
 section {
 overflow: hidden;
+    font-family: 'Arvo', serif;
 }
 
 
