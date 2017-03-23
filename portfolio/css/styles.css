@@ -1,10 +1,14 @@
 /* Did it change? The Fabulous Style Sheet for my Portfolio!*/
 
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+
 /*Body, Headings, Paragraphs*/
 
 body {
-    background: url("../img/perfectofficebackground.jpg");
-    background-size:cover;
+   background: url("../img/professionalgraybackground.jpg");
+    background-size: cover;
 }
 
 
@@ -35,6 +39,11 @@ p {
     font-weight: 400;
     font-size: 1.8em;
     text-align: center;
+}
+
+#myname {
+background: -webkit-linear-gradient(to left, #E55D87 , #5FC3E4); 
+background: linear-gradient(to left, #D8D8D8, #D8D8D8); 
 }
 
 .book {
@@ -70,7 +79,17 @@ p {
 
 
 
-/*Navigation Bar!*/
+/*Navigation Bar!
+
+
+
+#headerbar {
+    height: 100px;
+    font-size: .8em;
+    margin-top: -100px;
+    margin-right: 25px;
+    
+}
 
 nav li{
   
@@ -120,6 +139,65 @@ div {
     width: 100%;
     text-align: center;
 }
+
+
+*/
+
+/*Nav Bar!*/
+
+
+
+.pagesnav {
+    text-align: center;
+    margin-top: -2em;
+    padding-bottom: 2em; 
+    
+}
+
+
+
+
+nav li{
+  display: inline-flex;
+  font-size: 1em;
+  text-decoration: none;
+  }
+
+
+ul {
+  text-align: center;
+}
+
+nav a:link,
+nav a:visited {
+  background-color: black;
+    color: whitesmoke;
+  text-decoration: none;
+  padding: 1em;
+  transition: all .5s;
+    font-family: 'Arvo', serif;
+}
+
+nav a:hover  {
+  background-color: gainsboro;
+  margin-left: .5em;
+  color: black;
+ 
+}
+
+nav a:hover:before {
+    padding-right: .5em;
+    background: black;
+
+}
+
+nav a:active {
+  background-color: whitesmoke;
+  color: black;
+}
+
+
+
 
 
 
@@ -182,7 +260,7 @@ li {
 
 h3 {
   clear: left;
-  padding-top: 20px;
+font-family: serif;
   text-align: center;
 }
 
