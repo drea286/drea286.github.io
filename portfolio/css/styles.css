@@ -173,7 +173,7 @@ ul {
 
 nav a:link,
 nav a:visited {
-  background-color: black;
+  background-color: #333333;
     color: whitesmoke;
   text-decoration: none;
   padding: 1em;
