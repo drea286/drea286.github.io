@@ -157,7 +157,11 @@ div {
     
 }
 
-
+.microscope {
+    text-align: center;
+    margin-bottom: 2.5em;
+    margin-top: -2em;
+}
 
 
 nav li{
