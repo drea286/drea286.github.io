@@ -26,11 +26,15 @@ header img {
     margin-top: 2em; 
 }
 
+
+
+
 /*Picture*/
 .profilepic {
     width: 400px;
     height: 400px;
 }
+
 
 
 
@@ -78,7 +82,9 @@ nav a:active {
 }
 
 
-
+.LI-profile-badge {
+    margin-top: 1.2em;
+}
 
 
 
