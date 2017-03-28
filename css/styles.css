@@ -81,9 +81,12 @@ nav a:active {
   color: black;
 }
 
-
+/* LinkedIn */
 .LI-profile-badge {
-    margin-top: 1.2em;
+    margin-top: .5em;
+    align-content: center;
+    text-align: center;
+    margin-right: 3em;
 }
 
 
