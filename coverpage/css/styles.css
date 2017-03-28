@@ -22,6 +22,9 @@ body {
 
 
 
+
+
+
 /*RWD - Media Queries / Flexbox!*/
 
 @media screen 
@@ -84,10 +87,33 @@ iframe {
 
 
 
+/*  LinkedIn  */
+.LI-profile-badge {
+    text-align: center;
+    
+}
 
 
 
-/*Header!*/
+
+
+
+/*Header!
+
+header div*/
+
+
+#headerBar {
+    width: 100%;
+    text-align: center;
+}
+ 
+header 
+
+
+
+
+/*More Header!*/
 
 /*
 #headerBar {
@@ -97,10 +123,7 @@ iframe {
 }
 */
 
-header div {
-    width: 100%;
-    text-align: center;
-}
+
 
 /*
 header section {
@@ -170,12 +193,17 @@ polygon:hover {
 
 
 /*Nav Bar!*/
+nav section {
+        text-align: center;
+}
+
 
 nav li{
   display: inline-flex;
   font-size: 1em;
   text-decoration: none;
   font-family: 'Arvo', serif;
+    text-align: center;
   }
 
 
@@ -188,28 +216,34 @@ nav a:link{
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
+ 
 }
 
 nav a:visited {
   background-color: whitesmoke;
+       
 }
 
 nav a:hover {
   background-color: black;
   margin-left: .5em;
   color: whitesmoke;
+       
  
 }
 
 nav a:hover:before {
     padding-right: .5em;
     background: black;
+       
+    
 
 }
 
 nav a:active {
   background-color: whitesmoke;
   color: black;
+      
 }
 
 

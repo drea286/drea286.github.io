@@ -4,6 +4,17 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo');
 
 
+
+/*LinkedIn*/
+
+
+.LI-profile-badge {
+    text-align: center;
+}
+
+
+
+
 /*Body, Headings, Paragraphs*/
 
 body {
@@ -260,9 +271,9 @@ li {
 }
 
 h3 {
-  clear: left;
+clear: left;
 font-family: serif;
-  text-align: center;
+text-align: center;
 }
 
 .actual {
